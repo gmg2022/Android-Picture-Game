@@ -1,0 +1,816 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintviewid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+
+            android:id="@+id/linearLayout5"
+            android:layout_width="95dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="486dp"
+            android:background="@drawable/customborder"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toTopOf="@+id/button2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="16dp"
+                android:text="A" />
+
+            <Button
+                android:id="@+id/abutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Take Pic" />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:id="@+id/linearLayout25"
+            android:layout_width="95dp"
+            android:layout_height="91dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/customborder"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0">
+
+            <TextView
+
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="16dp"
+                android:text="B" />
+
+            <Button
+
+                android:id="@+id/bbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Take Pic" />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:id="@+id/linearLayout9"
+            android:layout_width="95dp"
+            android:layout_height="91dp"
+            android:layout_marginStart="196dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/customborder"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="16dp"
+                android:text="C" />
+
+            <Button
+
+                android:id="@+id/cbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Take Pic" />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:id="@+id/linearLayout16"
+            android:layout_width="95dp"
+            android:layout_height="91dp"
+            android:layout_marginStart="290dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/customborder"
+            android:orientation="vertical"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+
+                android:layout_width="38dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="16dp"
+                android:text="D" />
+
+            <Button
+
+                android:id="@+id/dbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Take Pic" />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:id="@+id/linearLayout23"
+            android:layout_width="95dp"
+            android:layout_height="91dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="96dp"
+            android:background="@drawable/customborder"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="16dp"
+                android:text="E" />
+
+            <Button
+
+                android:id="@+id/ebutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Take Pic" />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:id="@+id/linearLayout"
+            android:layout_width="95dp"
+            android:layout_height="91dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="96dp"
+            android:background="@drawable/customborder"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="16dp"
+                android:text="F" />
+
+            <Button
+
+                android:id="@+id/fbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Take Pic" />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:id="@+id/linearLayout3"
+            android:layout_width="95dp"
+            android:layout_height="91dp"
+            android:layout_marginStart="196dp"
+            android:layout_marginTop="96dp"
+            android:background="@drawable/customborder"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="16dp"
+                android:text="G" />
+
+            <Button
+
+                android:id="@+id/gbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Take Pic" />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:id="@+id/parenttest"
+            android:layout_width="95dp"
+            android:layout_height="91dp"
+            android:layout_marginStart="291dp"
+            android:layout_marginTop="96dp"
+            android:background="@drawable/customborder"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="16dp"
+                android:text="H" />
+
+            <Button
+
+                android:id="@+id/hbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Take Pic" />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:id="@+id/linearLayout4"
+            android:layout_width="95dp"
+            android:layout_height="91dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="188dp"
+            android:background="@drawable/customborder"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="16dp"
+                android:text="I" />
+
+            <Button
+
+                android:id="@+id/ibutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Take Pic" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+
+            android:id="@+id/linearLayout21"
+            android:layout_width="95dp"
+            android:layout_height="91dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="188dp"
+            android:background="@drawable/customborder"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="16dp"
+                android:text="J" />
+
+            <Button
+
+                android:id="@+id/jbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Take Pic" />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:id="@+id/linearLayout11"
+            android:layout_width="95dp"
+            android:layout_height="91dp"
+            android:layout_marginStart="196dp"
+            android:layout_marginTop="188dp"
+            android:background="@drawable/customborder"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="16dp"
+                android:text="K" />
+
+            <Button
+
+                android:id="@+id/kbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Take Pic" />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:id="@+id/linearLayout17"
+            android:layout_width="95dp"
+            android:layout_height="91dp"
+            android:layout_marginStart="291dp"
+            android:layout_marginTop="188dp"
+            android:background="@drawable/customborder"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="16dp"
+                android:text="L" />
+
+            <Button
+
+                android:id="@+id/lbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Take Pic" />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:id="@+id/linearLayout15"
+            android:layout_width="95dp"
+            android:layout_height="91dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="280dp"
+            android:background="@drawable/customborder"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="16dp"
+                android:text="M" />
+
+            <Button
+
+                android:id="@+id/mbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Take Pic" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+
+            android:id="@+id/linearLayout13"
+            android:layout_width="95dp"
+            android:layout_height="91dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="280dp"
+            android:background="@drawable/customborder"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="16dp"
+                android:text="N" />
+
+            <Button
+
+                android:id="@+id/nbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Take Pic" />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:id="@+id/linearLayout24"
+            android:layout_width="95dp"
+            android:layout_height="91dp"
+            android:layout_marginStart="196dp"
+            android:layout_marginTop="280dp"
+            android:background="@drawable/customborder"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="16dp"
+                android:text="O" />
+
+            <Button
+
+                android:id="@+id/obutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Take Pic" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+
+            android:id="@+id/linearLayout22"
+            android:layout_width="95dp"
+            android:layout_height="91dp"
+            android:layout_marginStart="291dp"
+            android:layout_marginTop="280dp"
+            android:background="@drawable/customborder"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="16dp"
+                android:text="P" />
+
+            <Button
+
+                android:id="@+id/pbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Take Pic" />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:id="@+id/linearLayout2"
+            android:layout_width="95dp"
+            android:layout_height="91dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="371dp"
+            android:background="@drawable/customborder"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="16dp"
+                android:text="Q" />
+
+            <Button
+
+                android:id="@+id/qbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Take Pic" />
+
+        </LinearLayout>
+        <LinearLayout
+
+            android:id="@+id/linearLayout8"
+            android:layout_width="95dp"
+            android:layout_height="91dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="371dp"
+            android:background="@drawable/customborder"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="16dp"
+                android:text="R" />
+
+            <Button
+
+                android:id="@+id/rbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Take Pic" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+
+            android:id="@+id/linearLayout6"
+            android:layout_width="95dp"
+            android:layout_height="91dp"
+            android:layout_marginStart="196dp"
+            android:layout_marginTop="371dp"
+            android:background="@drawable/customborder"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="16dp"
+                android:text="S" />
+
+            <Button
+
+                android:id="@+id/sbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Take Pic" />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:id="@+id/linearLayout12"
+            android:layout_width="95dp"
+            android:layout_height="91dp"
+            android:layout_marginStart="291dp"
+            android:layout_marginTop="371dp"
+            android:background="@drawable/customborder"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="16dp"
+                android:text="T" />
+
+            <Button
+
+                android:id="@+id/tbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Take Pic" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+
+            android:id="@+id/linearLayout10"
+            android:layout_width="95dp"
+            android:layout_height="91dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="463dp"
+            android:background="@drawable/customborder"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="16dp"
+                android:text="U" />
+
+            <Button
+
+                android:id="@+id/ubutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Take Pic" />
+
+        </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+
+            android:id="@+id/linearLayout14"
+            android:layout_width="95dp"
+            android:layout_height="91dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="463dp"
+            android:background="@drawable/customborder"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="16dp"
+                android:text="V" />
+
+            <Button
+
+                android:id="@+id/vbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Take Pic" />
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+
+            android:id="@+id/linearLayout18"
+            android:layout_width="95dp"
+            android:layout_height="91dp"
+            android:layout_marginStart="196dp"
+            android:layout_marginTop="463dp"
+            android:background="@drawable/customborder"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="16dp"
+                android:text="W" />
+
+            <Button
+
+                android:id="@+id/wbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Take Pic" />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:id="@+id/linearLayout19"
+            android:layout_width="95dp"
+            android:layout_height="91dp"
+            android:layout_marginStart="291dp"
+            android:layout_marginTop="463dp"
+            android:background="@drawable/customborder"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="16dp"
+                android:text="X" />
+
+            <Button
+                android:id="@+id/xbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Take Pic" />
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+
+            android:id="@+id/linearLayout20"
+            android:layout_width="95dp"
+            android:layout_height="91dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="557dp"
+            android:layout_marginEnd="216dp"
+            android:background="@drawable/customborder"
+
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/button2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="16dp"
+                android:text="Y" />
+
+            <Button
+                android:id="@+id/ybutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Take Pic" />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:id="@+id/linearLayout7"
+            android:layout_width="95dp"
+            android:layout_height="91dp"
+            android:layout_marginStart="196dp"
+            android:layout_marginTop="557dp"
+            android:background="@drawable/customborder"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="16dp"
+                android:text="Z" />
+
+            <Button
+                android:id="@+id/zbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Take Pic" />
+
+        </LinearLayout>
+
+
+
+        <Button
+            android:id="@+id/quitbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="19dp"
+            android:text="Quit"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.988"
+            app:layout_constraintStart_toEndOf="@+id/linearLayout20"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout16"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="19dp"
+            android:text="Button"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/linearLayout20"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout5" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
